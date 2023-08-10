@@ -7,13 +7,10 @@
 import cv2
 import matplotlib.pyplot as plt
 
-# Görüntüyü yükle 
-image = cv2.imread('/Users/Dilara/Downloads/gökkusagi.jpg')
+image = cv2.imread('/Users/Dilara/Downloads/gökkusagi.jpg') 
 
-# Görüntüyü gri tonlamaya çevir
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# Görüntüyü göster
 plt.figure(figsize=(10, 5))
 
 plt.subplot(1, 2, 1)
@@ -27,8 +24,6 @@ plt.title("Gri Tonlamalı Görüntü")
 plt.tight_layout()
 plt.show()
 
-
-# In[ ]:
 
 
 
